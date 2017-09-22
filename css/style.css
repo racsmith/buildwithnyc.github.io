@@ -1,11 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.nyc-header {
+  background-color: #000000;
+  color: white;
+  width: 100%;
+}
+
+.nyc-footer {
+  background-color: #000000;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.headfoot-block-left {
+    background-color: #000000;
+    float: left;
+    text-align: left;
+    padding: 0.25rem 0 0.25rem;
+    padding-top: 0.25rem;
+    padding-right: 0px;
+    padding-bottom: 0.25rem;
+    padding-left: 15%;
+    height: 27px;
+    width: 50%;
+}
+
+.headfoot-block-right {
+    background-color: #000000;
+    float: right;
+    text-align: right;
+    padding: 0.25rem 0 0.25rem;
+    padding-top: 0.25rem;
+    padding-right: 15%;
+    padding-bottom: 0.25rem;
+    padding-left: 0px;
+    height: 27px;
+    width: 50%;
+}
+
+.headfoot-block-bottom {
+    background-color: #000000;
+    padding-top: 0.25rem;
+    padding-right: 15%;
+    padding-bottom: 0.25rem;
+    padding-left: 0px;
+    height: 27px;
+    width: 100%;
+}
+
+a.headfoot-link {
+  color: white;
+}
+
+a.headfoot-link:hover {
+  text-decoration: underline;
+}
+
+.bottom-footer {
+  background-color: #000000;
+}
+
+.nyc-toplogo {
+  height: 20px;
+}
+
 .jumbotron {
-    background-color: #3356A5;
+  background-color: #a6bfcc;
 }
 .jumbotron h1 {
-    color: #fff;
+    color: black;
 }
 .jumbotron p {
-    color: #fff;
+    color: black;
 }
 .btn-primary {
     color: #fff;
@@ -17,18 +88,18 @@
     background-color: #2F334F;
     border-color: #2F334F;
 }
-p .lead {
-  color: #fff;
+p.lead {
+  color: black;
 }
 .panel-primary> .panel-heading {
-    color: #fff;
-    background-color: #3356A5;
-    border-color: #3356A5;
+    color: black;
+    background-color: #a6bfcc;
+    border-color: #a6bfcc;
 }
 .btn-success {
     color: #fff;
-    background-color: #3356A5;
-    border-color: #3356A5;
+    background-color: #a6bfcc;
+    border-color: #a6bfcc;
     box-shadow: 0px 0px 2px #333;
 }
 .btn-success:hover {
@@ -36,7 +107,7 @@ p .lead {
     border-color: #2F334F;
 }
 .panel-primary {
-    border-color: #3356A5;
+    border-color: #a6bfcc;
     background-color: #f5f5f5;
 }
 a {
@@ -50,13 +121,14 @@ a {
     border-color: #ffffff;
 }
     .navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
+    .navbar-default .navbar-brand:focus {
     color: #25237a;
 }
 
+font.underline-on-hover:hover {
+  text-decoration: underline;
+}
 
 .list-group-item-info {
   color: #2F334F;
   background-color: #FCBC70;
-
-
